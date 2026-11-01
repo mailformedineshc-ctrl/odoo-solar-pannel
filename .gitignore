@@ -1,0 +1,21 @@
+# Secrets and local environment
+.env
+.env.*
+*.key
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Dependencies and logs
+node_modules/
+*.log
+
+# Supabase CLI local state (created on each computer, not part of the project)
+supabase/.temp/
+
+# Python
+__pycache__/
